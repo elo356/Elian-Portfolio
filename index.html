@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EESR Portfolio</title>
+
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="#">
+        <h1 class="logo">My Personal Portfolio</h1>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">elo356</a>
+
+          <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-navbar-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-navbar-link>About Me</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#services" class="navbar-link" data-navbar-link>Skills</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#project" class="navbar-link" data-navbar-link>Projects</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-navbar-link>Contact Us</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h2 class="h2 hero-title">Elián E. Soto Ramos</h2>
+
+            <p class="hero-text">
+              Computer Science and Engineering Student at RUM University
+            </p>
+
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="images/about-banner.png" width="700" height="532" loading="lazy" alt="about banner"
+              class="w-100 banner-animation">
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title underline">About Me</h2>
+
+            <p class="about-text">
+              I'm a computer science engineer student with knowledge in some language.
+            </p>
+
+            <p class="about-text">
+              I handle C#, Python, C++, HTML, CSS, Unity, Visual Studio and Arduino.
+            </p>
+
+            <ul class="stats-list">
+
+              <li class="stats-card">
+                <p class="h3 stats-title">0</p>
+
+                <p class="stats-text">Clients</p>
+              </li>
+
+              <li class="stats-card">
+                <p class="h3 stats-title">18</p>
+
+                <p class="stats-text">Projects</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section service" id="services">
+        <div class="container">
+
+          <h2 class="h2 section-title underline">My skills</h2>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="laptop-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 title">Desktop Development</h3>
+
+                <p class="text">
+                  I love to develop desktop application using .Net technologies.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="phone-portrait-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 title">Programming Languages</h3>
+
+                <p class="text">
+                  I have knowledge in programming language as python, c++ and C#. 
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="game-controller-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 title">Game Development</h3>
+
+                <p class="text">
+                  I love create small but fun games! With unique and special characteristics. 
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+      
+      <section class="section project" id="project">
+        <div class="container">
+
+          <h2 class="h2 section-title underline">Me Public Proyects</h2>
+
+          <ul class="project-list">
+
+            <li>
+              <div class="project-card">
+
+                <figure class="banner">
+                  <a href="https://develop-games-tech.itch.io/space-ship-survivor" target="_blank"> 
+                    <img src="images/project-5.png" width="750" height="350" loading="lazy"
+                      alt="Space Ship Survivor" class="img-cover">
+                  </a>
+                </figure>
+
+                <div class="content">
+
+                  <h3 class="h3 title">
+                    <a href="https://develop-games-tech.itch.io/space-ship-survivor" target="_blank">
+                      Space Ship Survivor
+                    </a>
+                  </h3>
+
+                  <p class="text">
+                    Space Ship Survivor is a beta shooter game in which you have to destroy meteorites so they don't destroy you. Go make the best record !! (Development Canceled)
+                  </p>
+
+                  <div class="meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2021-02-12">12 Feb, 2021</time>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="banner">
+                  <a href="https://play.google.com/store/apps/details?id=com.infinitum.ballsurvivor2&pli=1" target="_blank">
+                    <img src="images/project-3.png" width="750" height="350" loading="lazy"
+                      alt="Ball Survivor 2" class="img-cover">
+                  </a>
+                </figure>
+
+                <div class="content">
+
+                  <h3 class="h3 title">
+                    <a href="https://play.google.com/store/apps/details?id=com.infinitum.ballsurvivor2&pli=1" target="_blank">
+                      Ball Survivor 2
+                    </a>
+                  </h3>
+
+                  <p class="text">
+                    Ball Survivor 2 is a arcade game where you have to survive many challenges during the falling. 
+                  </p>
+
+                  <div class="meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2022-05-03">3 May, 2022</time>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="banner">
+                  <a href="#">
+                    <img src="images/project-2.jpg" width="750" height="350" loading="lazy"
+                      alt="Study Time" class="img-cover">
+                  </a>
+                </figure>
+
+                <div class="content">
+
+                  <h3 class="h3 title">
+                    <a href="#">
+                      Study Time
+                    </a>
+                  </h3>
+
+                  <p class="text">
+                    Study Time is pomodoro software to keep track of your study time and study enough.
+                  </p>
+
+                  <div class="meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2022-06-028">28 June, 2022</time>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="banner">
+                  <a href="https://develop-games-tech.itch.io/cyber-defense" target="_blank"> 
+                    <img src="images/project-4.png" width="750" height="350" loading="lazy"
+                      alt="Cyber Defense" class="img-cover">
+                  </a>
+                </figure>
+
+                <div class="content">
+
+                  <h3 class="h3 title">
+                    <a href="https://develop-games-tech.itch.io/cyber-defense" target="_blank">
+                      Cyber Defense
+                    </a>
+                  </h3>
+
+                  <p class="text">
+                    Cyber Defense is a prototype game in which the objective is to survive as many waves as you can. (Development Pused)
+                  </p>
+
+                  <div class="meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2022-07-3">3 July, 2022</time>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="banner">
+                  <a href="https://develop-games-tech.itch.io/3dpmes" target="_blank"> 
+                    <img src="images/project-1.jpg" width="750" height="350" loading="lazy"
+                      alt="3d Printing Model Estimation" class="img-cover">
+                  </a>
+                </figure>
+
+                <div class="content">
+
+                  <h3 class="h3 title">
+                    <a href="https://develop-games-tech.itch.io/3dpmes" target="_blank">
+                      3d Printing Model Estimation
+                    </a>
+                  </h3>
+
+                  <p class="text">
+                    PMES is a software to estimate the prices of your future 3d prints so that you can sell them.
+                  </p>
+
+                  <div class="meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2022-07-31">31 July, 2022</time>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+                                     
+          </ul>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-bottom">
+      <p class="copyright">
+        &copy; 2024 <a href="#" class="copyright-link">Elián E> Soto Ramos</a>. 939-231-2803
+      </p>
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
